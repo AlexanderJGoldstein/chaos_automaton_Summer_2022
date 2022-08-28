@@ -164,7 +164,7 @@ endmodule
 
 module chaos_subarray #(
     parameter XSIZE = 10,
-    parameter YSIZE = 10
+    parameter YSIZE = 6
 )(
 `ifdef USE_POWER_PINS
     inout vccd1,	// User area 1 1.8V supply

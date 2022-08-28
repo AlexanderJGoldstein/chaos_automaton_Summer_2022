@@ -190,3 +190,4 @@ set_timing_derate -late 1.0500
 # Design Rules
 ###############################################################################
 set_max_fanout 12.0000 [current_design]
+set_false_path -from [get_ports {hold inorth[*] isouth[*] ieast[*] iwest[*]}] -to [get_ports {onorth[*] osouth[*] oeast[*] owest[*]}]
